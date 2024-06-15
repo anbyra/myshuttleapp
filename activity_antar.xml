@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AntarActivity">
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat Rumah"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/etSchool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Sekolah"
+        android:layout_below="@id/etAddress"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/btnOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesan Antar"
+        android:layout_below="@id/etSchool"
+        android:layout_margin="16dp"/>
+</RelativeLayout>
